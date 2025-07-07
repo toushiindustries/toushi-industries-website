@@ -1,0 +1,37 @@
+@font-face {
+  font-family: ButterflyKids;
+  src: url("../src/assets/fonts/ButterflyKids-Regular.ttf");
+}
+
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url("../src/assets/fonts/PlayfairDisplay-Bold.ttf");
+}
+
+@font-face {
+  font-family: Tinos;
+  src: url("../src/assets/fonts/Tinos-Regular.ttf");
+}
+
+@font-face {
+  font-family: Delius;
+  src: url("../src/assets/fonts/Delius-Regular.ttf");
+}
+
+@font-face {
+  font-family: NotoSansSunuwar;
+  src: url("../src/assets/fonts/NotoSansSunuwar-Regular.ttf");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-butterflykids: ButterflyKids, "sans-serif";
+  --font-playfairdisplay: PlayfairDisplay, "serif";
+  --font-tinos: Tinos, "serif";
+  --font-delius: Delius, "sans-serif";
+  --font-notosanssunuwar: NotoSansSunuwar, "sans-serif";
+  --breakpoint-xss: 391px;
+  --breakpoint-xs: 451px;
+  --breakpoint-3xl: 1600px;
+}
